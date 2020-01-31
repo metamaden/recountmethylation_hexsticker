@@ -71,12 +71,12 @@ library(ggplot2)
 #---------------------
 {
   sticker(p, package = titleval,
-          s_x = 0.87, s_y = 1, s_width = 1.8, s_height = 1.4,
-          p_x = 1, p_y = 1.05, p_color = txtcol, p_size = 7,
+          s_x = 0.87, s_y = 1.03, s_width = 1.8, s_height = 1.6,
+          p_x = 1, p_y = 1.08, p_color = txtcol, p_size = 7,
           filename = stickerfn,
           h_fill = bgcol, h_color = bordercol,
           url = urlval, u_x = 1, u_y = 0.1, u_color = urlcol,
-          u_size = 3,
+          u_size = 2.8,
           white_around_sticker = FALSE) 
 }
 
